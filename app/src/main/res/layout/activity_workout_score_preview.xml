@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutScorePreview">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/flexpal__1_" />
+
+    <ImageView
+        android:id="@+id/goarrow"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/cetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        android:gravity="start"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView5212"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:gravity="start"
+        android:text="Well Done!, You've completed a workout!"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="58dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Rhistorybts"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/fillworkouts"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Exercises"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fillcals"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Calorie"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/filltimes"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView534"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Time"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Rtips"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/gray"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/baseline_tips_and_updates_24" />
+
+                <TextView
+                    android:id="@+id/Rtipstxt"
+                    android:layout_width="245dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Drink water before, during, and after your workout to stay properly hydrated."
+                    android:textColor="@color/black"
+                    android:textSize="11dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:backgroundTint="@color/gray"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/textView512212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Great job, Keep it up!"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/forwk"
+                    android:layout_width="23dp"
+                    android:layout_height="27dp"
+                    android:src="@drawable/increase"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"/>
+
+                <ImageView
+                    android:id="@+id/wb"
+                    android:layout_width="71dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/rbest_xaml"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="58dp"/>
+
+                <ProgressBar
+                    android:id="@+id/Workoutbest"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:progressDrawable="@drawable/scoreprevieewprogressbar"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="70dp"
+                   />
+                <ProgressBar
+                    android:id="@+id/Workoutgoal"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:progressDrawable="@drawable/scoreprevieewprogressbar"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="87dp"
+                    android:max="100"
+                    android:progress="100"
+                    />
+
+                <ImageView
+                    android:id="@+id/forkc"
+                    android:layout_width="23dp"
+                    android:layout_height="27dp"
+                    android:src="@drawable/increase"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="166dp"/>
+                <ImageView
+                    android:id="@+id/kc"
+                    android:layout_width="71dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/rcal_xaml"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="134dp"/>
+                <ProgressBar
+                    android:id="@+id/Kcalbest"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:progressDrawable="@drawable/scoreprevieewprogressbar"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="145dp"
+                    />
+                <ProgressBar
+                    android:id="@+id/Kcalgoal"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:progressDrawable="@drawable/scoreprevieewprogressbar"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="162dp"
+                    android:max="100"
+                    android:progress="100"
+                    />
+
+                <ImageView
+                    android:id="@+id/formin"
+                    android:layout_width="23dp"
+                    android:layout_height="27dp"
+                    android:src="@drawable/increase"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="240dp"/>
+                <ImageView
+                    android:id="@+id/mt"
+                    android:layout_width="71dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/rtime_xaml"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="208dp"/>
+                <ProgressBar
+                    android:id="@+id/Minbest"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:progressDrawable="@drawable/scoreprevieewprogressbar"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="220dp"
+                    />
+                <ProgressBar
+                    android:id="@+id/Mingoal"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="15dp"
+                    android:progressDrawable="@drawable/scoreprevieewprogressbar"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="237dp"
+                    android:max="100"
+                    android:progress="100"
+                    />
+
+                <TextView
+                    android:id="@+id/forwktxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+10"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:layout_marginStart="290dp"
+                    android:layout_marginTop="55dp"
+                    />
+
+                <TextView
+                    android:id="@+id/forkctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+10"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:layout_marginStart="290dp"
+                    android:layout_marginTop="130dp" />
+
+                <TextView
+                    android:id="@+id/formintxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+10"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:layout_marginStart="290dp"
+                    android:layout_marginTop="205dp" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nextReportbtn"
+        android:onClick="startWorkout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/btn_background"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="@color/white" />
+</RelativeLayout>

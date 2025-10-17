@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArmsIntermediate">
+
+    <ImageView
+        android:id="@+id/TopLLg"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/flexpaltlogo" />
+
+    <TextView
+        android:id="@+id/wid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="110dp"
+        android:visibility="invisible"
+        android:text="1" />
+
+
+    <EditText
+        android:id="@+id/extitle"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:text="ARMS INTERMEDIATE"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="15dp"
+        android:background="@color/gray" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="546dp"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard1"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c1con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/arm_circle" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Arm Circles"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c1time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:30"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard2"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c2con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/floor_triceps_dips" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Floor Tricep Dips"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c2time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:20"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard3"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c3con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/military_push_ups" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Military Push-Ups"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c3time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:20"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard4"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c4con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/alternating_hooks" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Alternating Hooks"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c4time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:30"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard5"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c5con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/floor_triceps_dips" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Floor Tricep Dips"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c5time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:20"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard6"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c6con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/military_push_ups" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Military Push-Ups"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c6time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:24"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view6"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard7"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c7con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/alternating_hooks" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Alternating Hooks"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c7time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:30"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard8"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c8con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/push_ups" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Push-Ups"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c8time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:20"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view8"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard9"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c9con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/burpees" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Burpees"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c9time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:25"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view9"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard10"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c10con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/arm_scissors" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Arm Scissors"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c10time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:35"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view10"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard11"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c11con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/triceps_stretch" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Triceps Stretch"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c11time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:30"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view13"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard12"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c12con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/push_ups" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Push-Ups"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c12time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:35"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view11"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard13"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c13con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/burpees" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Burpees"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c13time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:30"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view12"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contencard14"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:backgroundTint="@color/gray"
+                    android:padding="10dp">
+                    //dito yung picture
+                    <ImageView
+                        android:id="@+id/c14con"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/triceps_stretch" />
+                    //up here
+                    <TextView
+                        android:id="@+id/c14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="Triceps Stretch"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/c14time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="00:30"
+                        android:textColor="@color/black"
+                        android:textSize="12dp" />
+
+                    <View
+                        android:id="@+id/view14"
+                        android:layout_width="340dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="70dp"
+                        android:background="@color/black" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/abstartbtn"
+        android:onClick="startWorkout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/btn_background"
+        android:gravity="center"
+        android:text="Start"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

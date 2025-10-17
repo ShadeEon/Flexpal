@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditWorkoutalarmActivity">
+
+    <ImageView
+        android:id="@+id/TopLLg"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/flexpaltlogo" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:drawableLeft="@drawable/addwgoback_xaml"
+        android:text="Go Back"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/roboto"
+        android:text="EDIT SCHEDULE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="184dp"
+        android:drawableLeft="@drawable/addwlabel_xaml"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:gravity="start"
+        android:hint="LABEL"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="28dp"
+        android:focusable="false"
+        android:drawableLeft="@drawable/addwaddtimer_xaml"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:onClick="showTimePickerDialog"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:hint="00:00AM"
+        android:inputType="time"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"  />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="469dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="165dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonaddmore"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_addmore_bg"
+        android:drawableLeft="@drawable/baseline_add_box_24"
+        android:drawablePadding="2dip"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:singleLine="true"
+        android:text="Add more"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/btn_background"
+        android:gravity="center"
+        android:text="SAVE"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

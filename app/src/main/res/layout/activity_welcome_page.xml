@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="50dp"
+                android:src="@drawable/flogowp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Welcome to FlexPal"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="137dp"
+                android:layout_marginStart="109dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Get ready to embark on a journey to a healthier, happier you. We're thrilled to have you here and be a part of your fitness and wellness journey."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/Sreserved"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:text="Flexpal Prototype 1.0 FLP"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/btn_background"
+                android:gravity="center"
+                android:text="Get Started"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

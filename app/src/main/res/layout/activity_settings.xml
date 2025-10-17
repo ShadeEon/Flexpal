@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/white">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:id="@+id/bottom_navigator"
+        android:background="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_navi"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:id="@+id/TopLLg"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/flexpaltlogo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/roboto"
+        android:text="SETTINGS"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="65dp"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Shelp"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="48dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/shelp_xaml"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:text="Help/Guides"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="134dp"
+                    android:gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Saboutus"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="48dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/sabout_xaml"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="134dp"
+                    android:gravity="center" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Senable"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageVie4"
+                    android:layout_width="48dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/flexpalfgp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:id="@+id/textVie5"
+                    android:layout_width="144dp"
+                    android:layout_height="wrap_content"
+                    android:text="Enable Biometrics"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="126dp"
+                    android:gravity="center" />
+
+                <Switch
+                    android:id="@+id/enablebm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="284dp"
+                    android:textOn="ON"
+                    android:textOff="OFF"
+                    android:thumbTint="@color/white"
+                    android:trackTint="@color/black"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Sclear"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView152"
+                    android:layout_width="48dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/sdelete_xaml"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:id="@+id/textView527"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:text="Clear Progress"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="134dp"
+                    android:gravity="center" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Slogout"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="48dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/slogout_xaml"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="30dp" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:text="Close App"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="134dp"
+                    android:gravity="center" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/setTerms"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:text="@string/boldterms"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/Sreserved"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:text="Flexpal Prototype 1.0 FLP"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

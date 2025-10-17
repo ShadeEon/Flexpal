@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schedule"
+    android:background="@color/white">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:id="@+id/bottom_navigator"
+        android:background="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_navi"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:id="@+id/TopLLg"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/flexpaltlogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/roboto"
+        android:text="SCHEDULES"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/roboto"
+        android:text="Upcoming"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addschedW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/add_remindersch_xaml"
+        android:fontFamily="@font/roboto"
+        android:text="Add"
+        android:gravity="center"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/noUp"
+        android:layout_width="339dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="No Alarm Set"
+        android:textColor="@color/grey"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="410dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/add_remindersch_xaml"
+        app:tint="@color/grey" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

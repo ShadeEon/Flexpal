@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flexpal</string>
+    <string name="home">Home</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="discover">Discover</string>
+    <string name="boldterms"><b>Acceptance of Terms:</b> By accessing or using our app, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.</string>
+    <string name="title_activity_abs_beginner">AbsBeginnerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

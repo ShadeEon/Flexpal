@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:id="@+id/goback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:drawableLeft="@drawable/addwgoback_xaml"
+        android:text="Go Back"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/TopLLg"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/flexpaltlogo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/roboto"
+        android:text="ABOUT US"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/aboutapp"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:id="@+id/textView527"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="About FlexPal:\nEmpowering Your Fitness Journey"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2527"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    android:gravity="start"
+                    android:text="Welcome to FlexPal"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView242527"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="start"
+                    android:text="FlexPal is not just a gym workout app; it's your personal fitness companion on the road to a healthier and stronger you. Developed as an educational project with a passion for promoting well-being, FlexPal is designed to inspire, educate, and guide users on their fitness journey."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView251227"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="220dp"
+                    android:gravity="start"
+                    android:text="Our Mission"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2227"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="260dp"
+                    android:gravity="start"
+                    android:text="At FlexPal, our mission is to make fitness accessible and enjoyable for everyone, regardless of their experience or fitness level. We believe that a healthy lifestyle should be empowering, educational, and fun. With this ethos in mind, we've created a gym app that goes beyond the traditional workout experience."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView1227"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="220dp"
+                    android:gravity="start"
+                    android:text="Our Mission"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5227"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="380dp"
+                    android:gravity="start"
+                    android:text="Meet the Team"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3227"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="420dp"
+                    android:gravity="start"
+                    android:text="FlexPal is the result of the collaborative efforts of a dedicated team passionate about health and fitness. Our developers, designers, and fitness experts have come together to create an app that seamlessly blends technology and well-being."
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView557"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="510dp"
+                    android:gravity="start"
+                    android:text="*Jeremie Albana - Lead Developer\n*Jeremie Albana - UX/UI Designer\n*Google/Chatgpt - Fitness Advisor"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lead"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/gray"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:id="@+id/textView540"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="165dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Jeremie Albana\n\nLead Developer\n\nUX/UI Designer\n\nfacebook.com/EonVoid.1" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageVie2w8"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/jem"
+                    android:scaleType="centerCrop"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    app:strokeWidth="2dp"
+                    app:strokeColor="@color/black"
+                    app:shapeAppearanceOverlay="@style/circleImageView"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

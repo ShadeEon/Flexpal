@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weight_units">
+        <item>kg</item>
+        <item>lb</item>
+    </string-array>
+
+    <string-array name="height_units">
+        <item>in</item>
+        <item>cm</item>
+    </string-array>
+</resources>
