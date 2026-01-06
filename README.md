@@ -28,3 +28,7 @@ This project is built using the following technologies and libraries:
 | **Android SharedPreferences** | Lightweight data storage used for saving user settings, preferences, and basic state. |
 | **AndroidX Biometric Library** | Provides secure and standardized biometric (fingerprint/face) authentication for access control. |
 | **Material Components** | Standardized UI components for a modern Android look and feel. |
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
