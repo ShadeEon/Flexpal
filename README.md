@@ -1,7 +1,6 @@
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 # 👊 Flexpal - Your Ultimate Fitness Companion
-
 FlexPal is a native Android application designed to help users track their workouts, monitor progress, and achieve their fitness goals. Built with Java and the Android SDK, FlexPal offers a smooth, feature-rich experience for fitness enthusiasts of all levels.
 
 ## ⭐ Key Features
@@ -12,5 +11,20 @@ FlexPal is a native Android application designed to help users track their worko
 
 
 ## 🛠️ Tech Stack & Libraries
-<p align="left"><a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/></a></p>
-<p align="left"><a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a></p>
+This project is built using the following technologies and libraries:
+
+#### Core Technologies
+| Component | Description |
+| :--- | :--- |
+| **Language** | Java |
+| **IDE** | Android Studio |
+| **Platform** | Android SDK |
+
+#### Libraries & Dependencies
+
+| Library | Purpose |
+| :--- | :--- |
+| **Android TextToSpeech (TTS)** | Provides audio feedback and workout instructions for hands-free guidance. |
+| **Android SharedPreferences** | Lightweight data storage used for saving user settings, preferences, and basic state. |
+| **AndroidX Biometric Library** | Provides secure and standardized biometric (fingerprint/face) authentication for access control. |
+| **Material Components** | Standardized UI components for a modern Android look and feel. |
