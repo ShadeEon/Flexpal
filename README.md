@@ -31,41 +31,14 @@ This project is built using the following technologies and libraries:
 
 ## Screenshots
 
-<div align="center">
+## 📱 App Screenshots
 
-  <a href="screenshots/1767715263589.jpg">
-    <img src="screenshots/1767715263589.jpg" alt="Loading Screen" width="200" style="padding: 10px;">
-  </a>
-  <a href="screenshots/1767715263569.jpg">
-    <img src="screenshots/1767715263569.jpg" alt="Welcome Setup" width="200" style="padding: 10px;">
-  </a>
-  <a href="screenshots/1767715263551.jpg">
-    <img src="screenshots/1767715263551.jpg" alt="Biometrics Authentication" width="200" style="padding: 10px;">
-  </a>
-  <br>
-  
-  *Loading Screen* &emsp; *Welcome & Setup* &emsp; *Biometric Login*
-  <br><br>
-
-  <a href="screenshots/1767715263532.jpg">
-    <img src="screenshots/1767715263532.jpg" alt="BMI Calculator" width="200" style="padding: 10px;">
-  </a>
-  <a href="screenshots/1767715263513.jpg">
-    <img src="screenshots/1767715263513.jpg" alt="Home Dashboard" width="200" style="padding: 10px;">
-  </a>
-  <a href="screenshots/1767715263513.jpg">
-    <img src="screenshots/1767715263513.jpg" alt="Exercise List" width="200" style="padding: 10px;">
-  </a>
-  <br>
-  
-  *BMI Calculator* &emsp; *Main Dashboard* &emsp; *Exercise Details*
-  <br><br>
-
-  <a href="screenshots/1767715263475.jpg">
-    <img src="screenshots/1767715263475.jpg" alt="Sample Exercise" width="200" style="padding: 10px;">
-  </a>
-  <br>
-  
-  *Sample Exercise*
-
-</div>
+| Screenshot View | Image | Description |
+| :---: | :---: | :--- |
+| **Loading Screen** | <img src="assets/1767715263589.jpg" alt="Loading Screenshot" width="150"> | The initial loading view, which also prompts the biometric authentication check upon launch. |
+| **Welcome & Setup** | <img src="assets/1767715263569.jpg" alt="Welcome Screenshot" width="150"> | The user onboarding and initial setup screen, preparing the profile for first use. |
+| **Biometric Auth** | <img src="assets/1767715263551.jpg" alt="Biometrics Screenshot" width="150"> | Secure access control using the Android Biometric prompt for quick and safe login. |
+| **BMI Calculator** | <img src="assets/1767715263532.jpg" alt="BMI Screenshot" width="150"> | Tools for users to calculate their Body Mass Index (BMI) and track changes. |
+| **Home Dashboard** | <img src="assets/1767715263513.jpg" alt="Home Screenshot" width="150"> | The main user interface displaying overall progress, current goals, and quick access to workouts. |
+| **Exercise List** | <img src="assets/1767715263513.jpg" alt="Exercise Screenshot" width="150"> | The database of available exercises, powered by the Text-to-Speech library for hands-free instructions. |
+| **Sample Exercise** | <img src="assets/1767715263475.jpg" alt="Sample Exercise Screenshot" width="150"> | Detailed view of a specific exercise, including sets, reps, and logs. |
