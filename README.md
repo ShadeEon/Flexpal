@@ -1,4 +1,4 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](app/src/main/res/drawable/flexpaltlogo.png)
 
 # 👊 Flexpal - Your Ultimate Fitness Companion
 FlexPal is a native Android application designed to help users track their workouts, monitor progress, and achieve their fitness goals. Built with Java and the Android SDK, FlexPal offers a smooth, feature-rich experience for fitness enthusiasts of all levels.
