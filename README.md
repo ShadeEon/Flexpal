@@ -31,7 +31,8 @@ This project is built using the following technologies and libraries:
 
 ## Screenshots
 
-<p align="center">
+<div align="center">
+
   <a href="screenshots/1767715263589.jpg">
     <img src="screenshots/1767715263589.jpg" alt="Loading Screen" width="200" style="padding: 10px;">
   </a>
@@ -41,12 +42,10 @@ This project is built using the following technologies and libraries:
   <a href="screenshots/1767715263551.jpg">
     <img src="screenshots/1767715263551.jpg" alt="Biometrics Authentication" width="200" style="padding: 10px;">
   </a>
-  
   <br>
   
-  <p align="center">
-    *Loading Screen* &emsp;&emsp;&emsp; *Welcome & Setup* &emsp;&emsp;&emsp; *Biometric Login*
-  </p>
+  *Loading Screen* &emsp; *Welcome & Setup* &emsp; *Biometric Login*
+  <br><br>
 
   <a href="screenshots/1767715263532.jpg">
     <img src="screenshots/1767715263532.jpg" alt="BMI Calculator" width="200" style="padding: 10px;">
@@ -57,20 +56,16 @@ This project is built using the following technologies and libraries:
   <a href="screenshots/1767715263513.jpg">
     <img src="screenshots/1767715263513.jpg" alt="Exercise List" width="200" style="padding: 10px;">
   </a>
-  
   <br>
   
-  <p align="center">
-    *BMI Calculator* &emsp;&emsp;&emsp; *Main Dashboard* &emsp;&emsp;&emsp; *Exercise Details*
-  </p>
+  *BMI Calculator* &emsp; *Main Dashboard* &emsp; *Exercise Details*
+  <br><br>
 
   <a href="screenshots/1767715263475.jpg">
-    <img src="screenshots/1767715263475.jpg" alt="BMI Calculator" width="200" style="padding: 10px;">
+    <img src="screenshots/1767715263475.jpg" alt="Sample Exercise" width="200" style="padding: 10px;">
   </a>
-
   <br>
   
-  <p align="center">
-    *Sample Exercise* &emsp;&emsp;&emsp;
-  </p>
-</p>
+  *Sample Exercise*
+
+</div>
