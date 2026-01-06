@@ -31,10 +31,36 @@ This project is built using the following technologies and libraries:
 
 ## Screenshots
 
-![Loading Screenshot](screenshots/1767715263589.jpg)
-![Welcome Screenshot](screenshots/1767715263569.jpg)
-![Biometrics Screenshot](screenshots/1767715263551.jpg)
-![BMI Screenshot](screenshots/1767715263532.jpg)
-![Home Screenshot](screenshots/1767715263513.jpg)
-![Exercise Screenshot](screenshots/1767715263513.jpg)
-![SampleExercise Screenshot](screenshots/1767715263475.jpg)
+<p align="center">
+  <a href="assets/loading_screen.jpg">
+    <img src="assets/loading_screen.jpg" alt="Loading Screen" width="200" style="padding: 10px;">
+  </a>
+  <a href="assets/welcome_setup.jpg">
+    <img src="assets/welcome_setup.jpg" alt="Welcome Setup" width="200" style="padding: 10px;">
+  </a>
+  <a href="assets/biometrics_auth.jpg">
+    <img src="assets/biometrics_auth.jpg" alt="Biometrics Authentication" width="200" style="padding: 10px;">
+  </a>
+  
+  <br>
+  
+  <p align="center">
+    *Loading Screen* &emsp;&emsp;&emsp; *Welcome & Setup* &emsp;&emsp;&emsp; *Biometric Login*
+  </p>
+
+  <a href="assets/bmi_calculator.jpg">
+    <img src="assets/bmi_calculator.jpg" alt="BMI Calculator" width="200" style="padding: 10px;">
+  </a>
+  <a href="assets/home_dashboard.jpg">
+    <img src="assets/home_dashboard.jpg" alt="Home Dashboard" width="200" style="padding: 10px;">
+  </a>
+  <a href="assets/exercise_list.jpg">
+    <img src="assets/exercise_list.jpg" alt="Exercise List" width="200" style="padding: 10px;">
+  </a>
+  
+  <br>
+  
+  <p align="center">
+    *BMI Calculator* &emsp;&emsp;&emsp; *Main Dashboard* &emsp;&emsp;&emsp; *Exercise Details*
+  </p>
+</p>
