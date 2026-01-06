@@ -68,6 +68,8 @@ This project is built using the following technologies and libraries:
     <img src="screenshots/1767715263475.jpg" alt="BMI Calculator" width="200" style="padding: 10px;">
   </a>
 
+  <br>
+  
   <p align="center">
     *Sample Exercise* &emsp;&emsp;&emsp;
   </p>
