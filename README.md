@@ -31,4 +31,4 @@ This project is built using the following technologies and libraries:
 
 ## Screenshots
 
-![Loading Screenshot](https://drive.google.com/file/d/10StsEkA5Wt5PUfO5fTWx076eFu1IBjWG/view?usp=drive_link)
+![Loading Screenshot](screenshots/1767715263589.jpg)
