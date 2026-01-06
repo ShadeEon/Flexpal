@@ -32,3 +32,9 @@ This project is built using the following technologies and libraries:
 ## Screenshots
 
 ![Loading Screenshot](screenshots/1767715263589.jpg)
+![Welcome Screenshot](screenshots/1767715263569.jpg)
+![Biometrics Screenshot](screenshots/1767715263551.jpg)
+![BMI Screenshot](screenshots/1767715263532.jpg)
+![Home Screenshot](screenshots/1767715263513.jpg)
+![Exercise Screenshot](screenshots/1767715263513.jpg)
+![SampleExercise Screenshot](screenshots/1767715263475.jpg)
