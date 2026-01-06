@@ -40,5 +40,6 @@ This project is built using the following technologies and libraries:
 | **Biometric Auth** | <img src="screenshots/1767715263551.jpg" alt="Biometrics Screenshot" width="150"> | Secure access control using the Android Biometric prompt for quick and safe login. |
 | **BMI Calculator** | <img src="screenshots/1767715263532.jpg" alt="BMI Screenshot" width="150"> | Tools for users to calculate their Body Mass Index (BMI) and track changes. |
 | **Home Dashboard** | <img src="screenshots/1767715263513.jpg" alt="Home Screenshot" width="150"> | The main user interface displaying overall progress, current goals, and quick access to workouts. |
-| **Exercise List** | <img src="screenshots/1767715263513.jpg" alt="Exercise Screenshot" width="150"> | The database of available exercises, powered by the Text-to-Speech library for hands-free instructions. |
+| **Exercise List** | <img src="screenshots/1767715263513.jpg" alt="Exercise Screenshot" width="150"> | The list of available exercises, powered by the Text-to-Speech library for hands-free instructions. |
+| **Exercise Set** | <img src="screenshots/1767715263485.jpg" alt="Exercise Set Screenshot" width="150"> | The list of choosen exercises and to start that exercise set. |
 | **Sample Exercise** | <img src="screenshots/1767715263475.jpg" alt="Sample Exercise Screenshot" width="150"> | Detailed view of a specific exercise, including sets, reps, and logs. |
